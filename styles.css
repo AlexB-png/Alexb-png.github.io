@@ -45,7 +45,7 @@
 }
 
 .Python:hover {
-    width:10vw;
+    scale: 1.05;
 }
 
 .five {
@@ -54,7 +54,7 @@
 }
 
 .five:hover {
-    width: 8.5vw;
+    scale: 1.05;
 }
 
 .five2 {
@@ -63,7 +63,7 @@
 }
 
 .five2:hover {
-    width: 9vw;
+    scale: 1.05;
 }
 
 .Project1 {
@@ -77,7 +77,7 @@
 }
 
 .ProjectImage:hover {
-    width:11vw;
+    scale: 1.05;
 }
 
 .name {
