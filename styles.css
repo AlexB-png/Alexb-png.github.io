@@ -136,3 +136,10 @@ button:hover {
     color: #d6713e
 }
 
+.line {
+    display: flex;
+}
+
+.ProjectLink {
+    padding-right: 5%;
+}
