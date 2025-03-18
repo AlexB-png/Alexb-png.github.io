@@ -138,6 +138,11 @@ button:hover {
 
 .line {
     display: flex;
+    @media (max-width: 1500px) {
+        .your-element {
+            transform: scale(0.5);  /* Scale the element to 50% */
+        }
+    }
 }
 
 .ProjectLink {
