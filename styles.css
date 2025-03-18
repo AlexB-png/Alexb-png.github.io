@@ -46,6 +46,9 @@
 
 .Python:hover {
     scale: 1.05;
+    @media only screen and (min-device-width:1000px) {
+        scale: 0.85;
+    }
 }
 
 .five {
@@ -55,6 +58,9 @@
 
 .five:hover {
     scale: 1.05;
+    @media only screen and (min-device-width:1000px) {
+        scale: 0.85;
+    }
 }
 
 .five2 {
@@ -64,6 +70,9 @@
 
 .five2:hover {
     scale: 1.05;
+    @media only screen and (min-device-width:1000px) {
+        scale: 0.85;
+    }
 }
 
 .Project1 {
@@ -78,6 +87,9 @@
 
 .ProjectImage:hover {
     scale: 1.05;
+    @media only screen and (min-device-width:1000px) {
+        scale: 0.85;
+    }
 }
 
 .name {
@@ -138,13 +150,14 @@ button:hover {
 
 .line {
     display: flex;
-    /* @media (min-width: 1500px) {
-        .your-element {
-            transform: scale(0.2);  /* Scale the element to 50% */
-        }
-    
-
+}
 
 .ProjectLink {
     padding-right: 5%;
+}
+
+.ScaleImage {
+    @media only screen and (min-device-width:1000px) {
+        scale: 0.8;
+    }
 }
