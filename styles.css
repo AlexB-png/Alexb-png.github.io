@@ -2,6 +2,11 @@
     display: flex;
     justify-content: flex-start;
     align-items: top;
+
+    @media only screen and (max-device-width: 800px) {
+        flex-direction: column;
+        justify-content: center;
+    }
 }
 
 .child {
@@ -99,11 +104,10 @@
 }
 
 .name {
-    font-size: 100%;
-    color: #DB7543;
+    font-size: 3vw;
+    color: #4C6A92;
 
     @media only screen and (max-device-width: 760px) {
-        color: #d86126;
         font-size: 7vw;
     }
 }
