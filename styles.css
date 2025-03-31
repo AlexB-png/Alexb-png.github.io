@@ -1,7 +1,7 @@
 .parent {
-    display: flex;         
+    display: flex;
     justify-content: flex-start;
-    align-items: top;   
+    align-items: top;
 }
 
 .child {
@@ -10,11 +10,13 @@
     height: 100%;
     max-width: 50%;
     margin: 1vh;
-    color:#9F7019;
+    color: #9F7019;
     font-size: 5vh;
+
     @media only screen and (max-device-width: 480px) {
         font-size: 3vh;
     }
+
     @media only screen and (max-device-width: 280px) {
         font-size: 1vh;
     }
@@ -46,6 +48,7 @@
 
 .Python:hover {
     scale: 1.05;
+
     @media only screen and (min-device-width:1000px) {
         scale: 0.85;
     }
@@ -58,6 +61,7 @@
 
 .five:hover {
     scale: 1.05;
+
     @media only screen and (min-device-width:1000px) {
         scale: 0.85;
     }
@@ -70,6 +74,7 @@
 
 .five2:hover {
     scale: 1.05;
+
     @media only screen and (min-device-width:1000px) {
         scale: 0.85;
     }
@@ -81,22 +86,24 @@
 
 .ProjectImage {
     width: 10vw;
-    padding-top:4vh;
+    padding-top: 4vh;
     transition: all 0.2s ease-in-out;
 }
 
 .ProjectImage:hover {
     scale: 1.05;
+
     @media only screen and (min-device-width:1000px) {
-        scale: 0.85;
+        scale: 1.1;
     }
 }
 
 .name {
-    font-size:100%;
-    color:#DB7543;
+    font-size: 100%;
+    color: #DB7543;
+
     @media only screen and (max-device-width: 760px) {
-        color:#d86126;
+        color: #d86126;
         font-size: 7vw;
     }
 }
@@ -110,13 +117,14 @@
     font-size: 3vh;
 }
 
-@keyframes fadein{
-  0%{
-    opacity:0;
-  }
-  100%{
-    opacity:1;
-  }
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 dialog {
