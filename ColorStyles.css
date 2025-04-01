@@ -1,0 +1,16 @@
+:root {
+    --background: #FCDE9C;
+}
+
+body {
+    background-color: var(--background);
+}
+
+.center {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {}
